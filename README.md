@@ -2,6 +2,6 @@
 
 2. If using random IDs as primary keys, use numeric IDs since it is faster to compare and sort.
 
-3. Use the ideal data types to optimize disk space usage. For example, use MEDIUMINT/SMALLINT for smaller integer values which use less bytes than a normal INT which uses 4 bytes. [REF] (https://dev.mysql.com/doc/refman/8.0/en/storage-requirements.html)
+3. Use the ideal data types to optimize disk space usage. For example, use MEDIUMINT/SMALLINT for smaller integer values which use less bytes than a normal INT which uses 4 bytes. [REF](https://dev.mysql.com/doc/refman/8.0/en/storage-requirements.html)
 
 4. Use minimal no. of indexes on the required columns rather than adding them onto any random column since they require updation/insertion everytime the main table is altered.
